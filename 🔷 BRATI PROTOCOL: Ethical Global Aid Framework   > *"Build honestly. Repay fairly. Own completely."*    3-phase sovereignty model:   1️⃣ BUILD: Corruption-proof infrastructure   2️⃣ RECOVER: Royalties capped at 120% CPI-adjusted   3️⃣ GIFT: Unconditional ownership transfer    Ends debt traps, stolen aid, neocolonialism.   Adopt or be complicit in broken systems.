@@ -1,0 +1,41 @@
+# SECURITY
+.env
+*.key
+*.pem
+secrets/
+
+# SYSTEM JUNK
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# EDITOR FILES
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+
+# BUILD ARTIFACTS
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+*.log
+
+# TEMP FILES
+*.tmp
+*.bak
+*.backup
+
+# DOCS (KEEP ONLY FINAL PDF)
+*.docx
+*.pptx
+*.xlsx
+*.odt
+
+# MUST KEEP THESE!
+!Brati_Protocol_Official.pdf
+!README.md
+!LICENSE.md
